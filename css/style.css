@@ -365,8 +365,8 @@ Projects
   height: 100vh;
 }
 
-.cd-projects-previews a,
-.cd-projects .preview-image {
+.cd-projects-previews li:nth-of-type(1) a,
+.cd-projects > li:nth-of-type(1) .preview-image {
   /* set a background image for each project */
   background: #5b927d url(../img/img-1.jpg) no-repeat center center;
   background-size: cover;
@@ -793,9 +793,10 @@ JavaScript Disabled
 
 iframe {
   height: 350px;
-  margin-left: 5%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
   margin-bottom: 0;
-  width: 90%;
+  width: 95%;
   -webkit-transition: 1s ease;
   -moz-transition: 1s ease;
   -ms-transition: 1s ease;
@@ -805,18 +806,20 @@ iframe {
 iframe:hover {
   width: 100%;
   margin-left: 0;
+  margin-right: 0;
 }
 .iframe-info {
   display: table;
-  width: 90%;
+  width: 95%;
   margin-top: -1.5%;
-  margin-left: 5%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
   margin-bottom: 12%;
 }
 .inf {
   display: table-cell;
   text-align: center;
-  background: #fff;
+  background: #e9efd1;
   padding-bottom: 2.5%;
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -824,3 +827,41 @@ iframe:hover {
   font-weight: 700;
   text-decoration: underline;
 }
+.inf h4 a i{
+  vertical-align: text-bottom;
+}
+/*#a{
+  background: #5b927d;
+}
+#b{
+  background: #a8ae7e;
+}
+#c {
+  background: #e7d5a4;
+}
+#d {
+  background: #835531;
+}
+#a, #b, #c, #d {
+  -webkit-transition: 2.0s ease;
+  -moz-transition: 2.0s ease;
+  -ms-transition: 2.0s ease;
+  -o-transition: 2.0s ease;
+  transition: 2.0s ease;
+}
+#a:hover {
+  background: #5b927d url(../img/img-1.jpg) no-repeat center center;
+  background-size: cover;
+}
+#b:hover {
+  background: #a8ae7e url(../img/img-2.jpg) no-repeat center center;
+  background-size: cover;
+}
+#c:hover {
+  background: #e7d5a4 url(../img/img-3.jpg) no-repeat center center;
+  background-size: cover;
+}
+#d:hover {
+  background: #835531 url(../img/img-4.jpg) no-repeat center center;
+  background-size: cover;
+}*/
