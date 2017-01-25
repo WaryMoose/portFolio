@@ -793,13 +793,16 @@ JavaScript Disabled
 }
 
 
-
-
 iframe {
+  -webkit-height: 350px;
   height: 350px;
+  -webkit-margin-left: 2.5%;
   margin-left: 2.5%;
+  -webkit-margin-right: 2.5%;
   margin-right: 2.5%;
+  -webkit-margin-bottom: 0;
   margin-bottom: 0;
+  -webkit-width: 95%;
   width: 95%;
   -webkit-transition: 1s ease;
   -moz-transition: 1s ease;
@@ -808,8 +811,11 @@ iframe {
   transition: 1s ease;
 }
 iframe:hover {
+  -webkit-width: 100%;
   width: 100%;
+  -webkit-margin-left: 0;
   margin-left: 0;
+  -webkit-margin-right: 0;
   margin-right: 0;
 }
 .iframe-info {
