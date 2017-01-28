@@ -906,26 +906,30 @@ input, .form-control {
   font-family: 'Pristina', cursive;
   border: none;
   border-bottom: 1px dotted rgba(243,128,48, 1.0);
+  border-left: 1px dotted rgba(243,128,48, 1.0);
   background: transparent;
   box-shadow: none;
+}
+textarea {
+  resize: none;
 }
 input:focus, .form-control:focus, input:hover, .form-control:hover {
   outline: none;
   border: none;
-  border-left: 5.5px solid #777 /*rgba(243,128,48, 1.0)*/;
+  border-left: 5.5px solid #777; /*rgba(243,128,48, 1.0)*/;
   border-bottom: 1px dotted #777 /*rgba(243,128,48, 1.0)*/;
   box-shadow: none;
 }
-input::-webkit-input-placeholder {
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   color: #fff !important;
 }
-input:-moz-placeholder {
+input:-moz-placeholder, textarea:-moz-placeholder {
   color: #fff !important;
 }
-input::-moz-placeholder {
+input::-moz-placeholder, textarea::-moz-placeholder {
   color: #fff !important;
 }
-input::-ms-input-placeholder {
+input::-ms-input-placeholder, textarea::-ms-placeholder {
   color: #fff !important;
 }
 .btn {
